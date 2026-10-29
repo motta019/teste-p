@@ -1,0 +1,31 @@
+{
+  "name": "tcc-auth-system",
+  "version": "1.0.0",
+  "description": "Sistema de login, cadastro e exclusão de usuário com banco de dados",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^4.22.3",
+    "express-session": "^1.19.0",
+    "mysql2": "^3.24.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/37171-coder/tcc.back-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/37171-coder/tcc.back-end/issues"
+  },
+  "homepage": "https://github.com/37171-coder/tcc.back-end#readme"
+}
